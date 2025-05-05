@@ -27,7 +27,7 @@ func serveIndex(w http.ResponseWriter, r *http.Request) {
 
         if r.Method == "GET" {
 
-                http.ServeFile(w, r, "/home/zerocool/roryflixnew/roryflixWebPages/index.html")
+                http.ServeFile(w, r, "roryflixWebPages/index.html")
         }
 
 }
@@ -36,7 +36,7 @@ func serveTv(w http.ResponseWriter, r *http.Request) {
 
 	if r.Method == "GET" {
 		
-                http.ServeFile(w, r, "/home/zerocool/roryflixnew/roryflixWebPages/roryflixTvImproved.html")		
+                http.ServeFile(w, r, "roryflixWebPages/roryflixTvImproved.html")		
 	}
 
 }
@@ -45,7 +45,7 @@ func serveMovies(w http.ResponseWriter, r *http.Request) {
 
         if r.Method == "GET" {
 
-                http.ServeFile(w, r, "/home/zerocool/roryflixnew/roryflixWebPages/roryflixMoviesImproved.html")
+                http.ServeFile(w, r, "roryflixWebPages/roryflixMoviesImproved.html")
         }
 
 }
@@ -54,7 +54,7 @@ func servePlaylist(w http.ResponseWriter, r *http.Request) {
 
         if r.Method == "GET" {
 
-                http.ServeFile(w, r, "/home/zerocool/roryflixnew/roryflixWebPages/roryflixPlaylistSaver.html")
+                http.ServeFile(w, r, "roryflixWebPages/roryflixPlaylistSaver.html")
         }
 
 }
